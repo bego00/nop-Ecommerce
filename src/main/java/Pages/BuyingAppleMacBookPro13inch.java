@@ -20,7 +20,7 @@ public class BuyingAppleMacBookPro13inch extends BasePage {
         scroll.sendKeys(Keys.ARROW_DOWN);
     }
     public void clickToAddToCartButton() {
-        clickAddToCartButton();
+        clickAddToCartButtonMethod();
         clickCloseNotification();
     }
     public void setScrollUpToShoppingCart() {
