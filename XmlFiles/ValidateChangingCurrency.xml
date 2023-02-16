@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ValidateChanging Currency From US to Euro">
+    <test name="TestUSCurrency">
+        <parameter name="Currency" value="US Dollar"/>
+        <parameter name="logo" value="$"></parameter>
+        <classes>
+            <class name="ValidateChangeCurrency">
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestEuroCurrency">
+        <parameter name="Currency" value="Euro"></parameter>
+        <parameter name="logo" value="€"></parameter>
+        <classes>
+            <class name="ValidateChangeCurrency"></class>
+        </classes>
+    </test>
+</suite>

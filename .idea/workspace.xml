@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142e128c-4d6c-4b47-bbea-984993d228fc" name="Changes" comment="" />
+    <list default="true" id="142e128c-4d6c-4b47-bbea-984993d228fc" name="Changes" comment="initcommit">
+      <changelist_data name="bego" email="ahmedmohamed660000@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XmlFiles/ValidateCartAndWishList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XmlFiles/ValidateChangingCurrency.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XmlFiles/runtests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/AlertPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BuyingAppleMacBookPro13inch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/NoteBooksPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ShoppingCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AlertHandlingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BuyingAppleMacBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SearchByNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DataProvider/DataProviderLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DataProvider/DataProviderRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,66 +69,30 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/AutomationTasks/Nopecommerce/resources&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowDebug.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/AutomationTasks/Nopecommerce/XmlFiles&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\AutomationTasks\Nopecommerce\XmlFiles" />
+      <recent name="G:\AutomationTasks\Nopecommerce" />
       <recent name="G:\AutomationTasks\Nopecommerce\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\AutomationTasks\Nopecommerce\XmlFiles" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
-    <configuration name="G:/AutomationTasks/Nopecommerce/runtests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Nopecommerce" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/runtests.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.G:/AutomationTasks/Nopecommerce/XmlFiles/runtests.xml">
+    <configuration name="AlertHandlingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Nopecommerce" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterFailedTest.registerTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Nopecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Registration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Registration" />
-      <option name="MAIN_CLASS_NAME" value="Registration.RegisterFailedTest" />
-      <option name="METHOD_NAME" value="registerTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationSuccessfulTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Nopecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Registration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Registration" />
-      <option name="MAIN_CLASS_NAME" value="Registration.RegistrationSuccessfulTest" />
+      <option name="MAIN_CLASS_NAME" value="AlertHandlingTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -111,12 +100,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateChangeCurrency.checkValidCurr" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BuyingAppleMacBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Nopecommerce" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidateChangeCurrency" />
-      <option name="METHOD_NAME" value="checkValidCurr" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="BuyingAppleMacBookTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G:/AutomationTasks/Nopecommerce/XmlFiles/runtests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Nopecommerce" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/XmlFiles/runtests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Nopecommerce" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchByNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Nopecommerce" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchByNameTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -125,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginTest" />
-        <item itemvalue="TestNG.RegisterFailedTest.registerTest" />
-        <item itemvalue="TestNG.RegistrationSuccessfulTest" />
-        <item itemvalue="TestNG.G:/AutomationTasks/Nopecommerce/runtests.xml" />
-        <item itemvalue="TestNG.ValidateChangeCurrency.checkValidCurr" />
+        <item itemvalue="TestNG.G:/AutomationTasks/Nopecommerce/XmlFiles/runtests.xml" />
+        <item itemvalue="TestNG.SearchByNameTest" />
+        <item itemvalue="TestNG.AlertHandlingTest" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.BuyingAppleMacBookTest" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +162,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675858333651</updated>
     </task>
+    <task id="LOCAL-00001" summary="initcommit">
+      <created>1675863505397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675863505397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +182,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initcommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initcommit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

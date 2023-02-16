@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="validateItemsAddedToCartAndWishlist" parallel="tests" verbose="5">
+    <test name="validateItemsAddedToCartAndWishlist">
+        <parameter name="productName" value="mac"></parameter>
+        <classes>
+            <class name="SearchByNameTest">
+<!--                <methods>-->
+<!--                    <include name="validateHeaderItem"></include>-->
+<!--                    <include name="validateItemAddedToWishList"></include>-->
+<!--                    <include name="validateItemAddedToCart"></include>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
