@@ -21,9 +21,9 @@ public class BaseTest {
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         // WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("headless");
-        driver = new ChromeDriver(options);
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("headless");
+        driver = new ChromeDriver();
         driver.get(BASE_URL);
         driver.manage().window().maximize();
 

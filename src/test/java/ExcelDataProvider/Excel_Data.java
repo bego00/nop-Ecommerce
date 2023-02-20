@@ -15,7 +15,7 @@ public class Excel_Data {
     XSSFWorkbook workbook;
     XSSFSheet sheet;
 
-    public Excel_Data(String Path) {
+    public Excel_Data(String Path,String sheetName) {
         try {
             file = new FileInputStream(new File(Path));
             workbook = new XSSFWorkbook(file);

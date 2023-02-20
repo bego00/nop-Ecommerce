@@ -1,18 +1,19 @@
 package ExcelDataProvider;
 
 import org.testng.annotations.DataProvider;
+
 public class ExcelDataProvider {
 
     @DataProvider(name = "TEST1_Sheet1")
     public Object[][] GET_EData() {
-        String path =System.setProperty("user.dir", "/Excel/DATA_TEST.xlsx");
-//        String SheetName = "Sheet1";
-        Object Data[][] = TestData(path);
+        String path = System.setProperty("user.dir", "/Excel/DATA_TEST.xlsx");
+        String SheetName = "Sheet1";
+        Object Data[][] = TestData(path, SheetName);
         return Data;
     }
 
-    public Object[][] TestData(String path) {
-        Excel_Data excel = new Excel_Data(path);
+    public Object[][] TestData(String path, String sheetName) {
+        Excel_Data excel = new Excel_Data(path, sheetName);
         int RoWCount = excel.getRowCount();
         int ColCount = excel.getColCount();
         Object[][] E_Data = new Object[RoWCount][ColCount];
