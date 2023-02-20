@@ -49,4 +49,12 @@ public class BasePage {
         WaitUntilVisibleElement(addToCartIcon);
         clickElement(addToCartIcon);
     }
+    public void WaitTillVisibleAndClick(By element) {
+        WaitUntilVisibleElement(element);
+        clickElement(element);
+    }
+    public void WaitTillVisibleAndSendKeys(By element, String keyword) {
+        WaitUntilVisibleElement(element);
+        driver.findElement(element).sendKeys(keyword);
+    }
 }
