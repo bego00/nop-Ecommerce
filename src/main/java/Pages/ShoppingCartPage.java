@@ -27,8 +27,9 @@ public class ShoppingCartPage extends BasePage {
         clickElement(termsCheckBox);
     }
 
-    public void clickCheckOutButton() {
+    public CheckOutPage clickCheckOutButton() {
         WaitUntilVisibleElement(checkOutButton);
         clickElement(checkOutButton);
+        return new CheckOutPage(driver);
     }
 }

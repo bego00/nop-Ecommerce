@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142e128c-4d6c-4b47-bbea-984993d228fc" name="Changes" comment="featureadded">
+    <list default="true" id="142e128c-4d6c-4b47-bbea-984993d228fc" name="Changes" comment="read Cell By column name and row number function added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/CheckOutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excel/DATA_TEST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/DATA_TEST.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/ExcelDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/ExcelDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/Excel_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/Excel_Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Registration/RegistrationSuccessfulTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Registration/RegistrationSuccessfulTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BuyingAppleMacBookPro13inch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BuyingAppleMacBookPro13inch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/ShoppingCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BuyingAppleMacBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuyingAppleMacBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/ExcelDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/ExcelDataProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/Excel_Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/Excel_Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Registration/RegistrationSuccessfulTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Registration/RegistrationSuccessfulTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +55,7 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -169,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676561606000</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="read Cell By column name and row number function added">
+      <created>1676932281535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676932281535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initcommit" />
     <MESSAGE value="featureadded" />
-    <option name="LAST_COMMIT_MESSAGE" value="featureadded" />
+    <MESSAGE value="read Cell By column name and row number function added" />
+    <option name="LAST_COMMIT_MESSAGE" value="read Cell By column name and row number function added" />
   </component>
 </project>
