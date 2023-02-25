@@ -6,6 +6,8 @@ public class ExcelDataProvider {
 
     @DataProvider(name = "TEST1_Sheet1")
     public Object[][] GET_EData() {
+         //String path = "G:\\AutomationTasks\\Nopecommerce\\Excel\\DATA_TEST.xlsx";
+
         String path = System.setProperty("user.dir", "/Excel/DATA_TEST.xlsx");
         String SheetName = "Sheet1";
         Object Data[][] = TestData(path, SheetName);

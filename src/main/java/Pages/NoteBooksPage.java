@@ -9,9 +9,9 @@ public class NoteBooksPage extends BasePage{
     }
     private By appleMacBookItem = By.xpath("//div[@data-productid=\"4\"]//a[@title=\"Show details for Apple MacBook Pro 13-inch\"]");
 
-    public BuyingAppleMacBookPro13inch clickOnAppleMacBookPro13Inch() {
+    public BuyingAppleMacBookPro13inchPage clickOnAppleMacBookPro13Inch() {
         WaitUntilVisibleElement(appleMacBookItem);
         clickElement(appleMacBookItem);
-        return new BuyingAppleMacBookPro13inch(driver);
+        return new BuyingAppleMacBookPro13inchPage(driver);
     }
 }

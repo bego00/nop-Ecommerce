@@ -7,7 +7,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class Excel_Data {
@@ -15,11 +16,11 @@ public class Excel_Data {
     XSSFWorkbook workbook;
     XSSFSheet sheet;
 
-    public Excel_Data(String Path,String sheetName) {
+    public Excel_Data(String Path, String SheetName) {
         try {
             file = new FileInputStream(new File(Path));
             workbook = new XSSFWorkbook(file);
-            sheet = workbook.getSheetAt(0);
+            sheet = workbook.getSheet(SheetName);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -94,8 +95,8 @@ public class Excel_Data {
             XSSFCell cell = row.getCell(colIx); //get the cell
             map.put(cell.getStringCellValue(), cell.getColumnIndex()); //add the cell contents (name of column) and cell index to the map
         }
-
-        for (int x = 1; x <= getRowCount(); x++) {
+        int rowCount = getRowCount();
+        for (int x = 1; x <= rowCount; x++) {
             XSSFRow dataRow = sheet.getRow(x); //get row 1 to row n (rows containing data)
 
             int idxForColumn1 = map.get(colName); //get the column index for the column with header name = "Column1"

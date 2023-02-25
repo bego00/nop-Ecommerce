@@ -6,7 +6,7 @@ public class DataProviderRegistration {
     public Object[][] RegisterData() {
         Object[][] data = new Object[3][6];
 
-        data[0][0] = "ahmed";      data[0][1] = "mohamed";   data[0][2] = "test11@gmail.com";
+        data[0][0] = "ahmed";      data[0][1] = "mohamed";   data[0][2] = "test1122@gmail.com";
         data[0][3] = "VOIS";       data[0][4] = "test123";    data[0][5] = "test123";
 
         data[1][0] = "Joe";        data[1][1] = "Doe";       data[1][2] = "test22@gmail.com";

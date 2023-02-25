@@ -10,6 +10,7 @@ public class CheckOutPage extends BasePage {
     public CheckOutPage(WebDriver driver) {
         super(driver);
     }
+
     By cityElement = By.id("BillingNewAddress_City");
     WebElement country = driver.findElement(By.id("BillingNewAddress_CountryId"));
     By selectElement = By.id("BillingNewAddress_CountryId");
@@ -68,7 +69,6 @@ public class CheckOutPage extends BasePage {
 
     public String assertSuccessMessage() {
         WaitUntilVisibleElement(successMessage);
-
         return getText(successMessage);
     }
 

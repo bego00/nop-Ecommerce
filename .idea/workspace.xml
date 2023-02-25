@@ -4,20 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142e128c-4d6c-4b47-bbea-984993d228fc" name="Changes" comment="read Cell By column name and row number function added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/CheckOutPage.java" afterDir="false" />
+    <list default="true" id="142e128c-4d6c-4b47-bbea-984993d228fc" name="Changes" comment="maintain BasePage , adding helper function">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShoppingCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SuccessBuyingMacBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BuyingAppleMacBookPro13inch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BuyingAppleMacBookPro13inch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/ShoppingCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BuyingAppleMacBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuyingAppleMacBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel/DATA_TEST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/DATA_TEST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlFiles/ValidateCartAndWishList.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XmlFiles/ValidateCartAndWishList.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataProvider/DataProviderRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataProvider/DataProviderRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BuyingAppleMacBookPro13inch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BuyingAppleMacBookPro13inchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/NoteBooksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/NoteBooksPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BuyingAppleMacBookTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/ExcelDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/ExcelDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/Excel_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelDataProvider/Excel_Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataProvider/DataProviderRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataProvider/DataProviderRegistration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/BuyingAppleMacBookPro13inch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/BuyingAppleMacBookPro13inch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/ShoppingCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/ShoppingCartPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BuyingAppleMacBookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BuyingAppleMacBookTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/ExcelDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/ExcelDataProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/Excel_Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/Excel_Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExcelDataProvider/demo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Registration/RegistrationSuccessfulTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Registration/RegistrationSuccessfulTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="search" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,23 +93,11 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.LoginTest.loginTest">
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExcelDataProvider.demo" />
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Nopecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExcelDataProvider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="G:/AutomationTasks/Nopecommerce/XmlFiles/ValidateCartAndWishList.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Nopecommerce" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/XmlFiles/ValidateCartAndWishList.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -112,6 +109,24 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginTest" />
       <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationSuccessfulTest.registerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Nopecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Registration" />
+      <option name="MAIN_CLASS_NAME" value="Registration.RegistrationSuccessfulTest" />
+      <option name="METHOD_NAME" value="registerTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginTest.loginTest" />
-        <item itemvalue="Application.demo" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.RegistrationSuccessfulTest.registerTest" />
         <item itemvalue="TestNG.SearchByNameTest.validateItemAddedToCart" />
         <item itemvalue="TestNG.SearchByNameTest" />
-        <item itemvalue="TestNG.G:/AutomationTasks/Nopecommerce/XmlFiles/ValidateCartAndWishList.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676932281535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="maintain BasePage , adding helper function">
+      <created>1677021521806</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677021521806</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +215,28 @@
             <State />
           </value>
         </entry>
+        <entry key="ee1eb33e-7d27-4ced-8688-3d356ee70198">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="ee1eb33e-7d27-4ced-8688-3d356ee70198" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -200,6 +244,7 @@
     <MESSAGE value="initcommit" />
     <MESSAGE value="featureadded" />
     <MESSAGE value="read Cell By column name and row number function added" />
-    <option name="LAST_COMMIT_MESSAGE" value="read Cell By column name and row number function added" />
+    <MESSAGE value="maintain BasePage , adding helper function" />
+    <option name="LAST_COMMIT_MESSAGE" value="maintain BasePage , adding helper function" />
   </component>
 </project>

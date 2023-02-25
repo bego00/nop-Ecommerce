@@ -5,11 +5,11 @@
         <parameter name="productName" value="mac"></parameter>
         <classes>
             <class name="SearchByNameTest">
-<!--                <methods>-->
-<!--                    <include name="validateHeaderItem"></include>-->
-<!--                    <include name="validateItemAddedToWishList"></include>-->
-<!--                    <include name="validateItemAddedToCart"></include>-->
-<!--                </methods>-->
+                <methods>
+                    <include name="validateHeaderItem"></include>
+                    <include name="validateItemAddedToWishList"></include>
+                    <include name="validateItemAddedToCart"></include>
+                </methods>
             </class>
         </classes>
     </test>

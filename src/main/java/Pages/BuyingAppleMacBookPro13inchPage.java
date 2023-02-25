@@ -3,10 +3,10 @@ package Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class BuyingAppleMacBookPro13inch extends BasePage {
+public class BuyingAppleMacBookPro13inchPage extends BasePage {
 
 
-    public BuyingAppleMacBookPro13inch(WebDriver driver) {
+    public BuyingAppleMacBookPro13inchPage(WebDriver driver) {
         super(driver);
     }
 

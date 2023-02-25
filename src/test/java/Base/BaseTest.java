@@ -1,5 +1,6 @@
 package Base;
 
+import ExcelDataProvider.Excel_Data;
 import Pages.HomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,13 +17,14 @@ public class BaseTest {
     public WebDriver driver;
     protected HomePage homePage;
     protected SoftAssert soft;
+    protected Excel_Data excel_data = new Excel_Data("./Excel/DATA_TEST.xlsx", "Sheet1");
 
     @BeforeTest
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-        // WebDriverManager.chromedriver().setup();
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("headless");
+//         WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("headless");
         driver = new ChromeDriver();
         driver.get(BASE_URL);
         driver.manage().window().maximize();
