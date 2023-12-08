@@ -17,7 +17,7 @@ public class HomePage extends BasePage {
     private By searchBoxField = By.xpath("//input[@id=\"small-searchterms\"]");
     private By searchButton = By.xpath("//button[@class=\"button-1 search-box-button\"]");
     private By appleMacBookItem = By.xpath("//div[@data-productid=\"4\"]//a[@title=\"Show details for Apple MacBook Pro 13-inch\"]");
-    public HomePage(WebDriver driver) {
+       public HomePage(WebDriver driver) {
         super(driver);
     }
 
